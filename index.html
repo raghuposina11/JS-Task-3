@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+      
+
+
+
+ //tasks
+//Write a JavaScript script that uses the ternary operator to determine if a number is even or odd.
+//hint (a%2==0)
+
+//Age Group: Declare a variable age and 
+// use the ternary operator to classify the age into "Child" (0-12), "Teen" (13-19), "Adult" (20-64), and "Senior" (65 and above). Log the result.
+
+
+// ternary operator
+
+let num=+prompt('Enter The value')
+
+let number=(num%2==0)? "It is a Even number" : "It is a Odd Number"
+console.log(number); 
+
+
+
+
+//Grade Classification: Declare a variable score and set it to a value between 0 and 100.
+//Use nested ternary operators to classify the score into grades: A (>= 90), B (>= 75), C (>= 60), D (>= 45), and F (below 45). Log the grade.
+
+
+
+
+
+//Grade Classification:
+ let marks=+prompt('Please Enter the marks between the 0 to 100 ');
+ let grade=(marks>=90)?'You got A grade':
+        (marks>=75)?'You got B grade':
+        (marks>=60)?'You got C grade':
+        (marks>=45)?'You got D grade': 'you are fail'
+      //  (marks<45)?'You rare fail': 
+        console.log(grade);
+
+        // Temperature Check: Declare a variable temperature and 
+//use nested ternary operators to categorize it as "Hot" (above 30), "Warm" (20-30), "Cool" (10-19), and "Cold" (below 10). Log the result.
+
+let temp=+prompt('Please Enter the Temperature');
+let temperature=(temp>=30)?'Hot ':
+       (temp>=20)?'Warm':
+       (temp>=10)?'Cool': 'Cold'
+       console.log(temperature);
+
+
+
+       //Age Group: Declare a variable age and 
+       //use the ternary operator to classify the age into "Child" (0-12), "Teen" (13-19), "Adult" (20-64), and "Senior" (65 and above). Log the result.
+       let age=+prompt('Please Enter the Age');
+       let agedeff=(temp>=65)?'Senior':
+            (age>=20)? 'Adult':
+            (age>=13)?'Teen':'Child'
+            console.log(agedeff);
+
+      
+
+</script>
+</body>
+</html>
